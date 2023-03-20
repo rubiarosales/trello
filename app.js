@@ -26,6 +26,7 @@ btnAdd.addEventListener("click", (e) => {
     li.appendChild(btnDel);
     ul.appendChild(li);
     newTask.value = "";
+    empty.style.display="none";
 
 });
 
