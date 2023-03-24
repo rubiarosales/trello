@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trello</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-    <div class="select-color">
-        <input type="color" name="Paleta de colores" id="color">
-        <button class="ok">ok</button>
-    </div>
-    <div class="to-do"> 
+
+<div class="box-container">
+
+<div class="list-container">
+    <div class="to-do">
         <div class="titulo">
-            <h3>Tareas Pendientes</h3>
-        
+            <p class="name-list">Tareas Pendientes</p>
+            <div class="config-btn">
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+            </div>
         </div>
         <div class="add-task">
             <input type="text" class="new-task" placeholder="Agregar nueva tarea">
@@ -24,14 +31,156 @@
         </div>
         <div class="to-do-task">
             <ul class="to-do-list">
-                
             </ul>
         </div>
+
         <div class="empty">
-            <p>No hay tareas más tareas pendientes</p>
+            <p>No tienes tareas pendientes</p>
         </div>
     </div>
 
+    <div class="config">
+    <div class="box-color">
+        <p>Color de la caja: </p>
+        <input type="color" id="box-color">
+    </div>
+    <div class="font-color">
+        <p>Color de la fuente: </p>
+        <input type="color" id="font-color">
+    </div>
+    <div class="box-name">
+        <input type="text" id="box-name" placeholder="Nombre de la lista">
+    </div>
+    <button class="ok">Guardar</button>
+    </div>
+</div>
+<!-- 
+<div class="list-container">
+    <div class="to-do">
+        <div class="titulo">
+            <p class="name-list">Tareas Pendientes</p>
+            <div class="config-btn">
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+            </div>
+        </div>
+        <div class="add-task">
+            <input type="text" class="new-task" placeholder="Agregar nueva tarea">
+            <button class="add">+</button>
+        </div>
+        <div class="to-do-task">
+            <ul class="to-do-list">
+            </ul>
+        </div>
+
+        <div class="empty">
+            <p>No tienes tareas pendientes</p>
+        </div>
+    </div>
+
+    <div class="config">
+    <div class="box-color">
+        <p>Color de la caja: </p>
+        <input type="color" id="box-color">
+    </div>
+    <div class="font-color">
+        <p>Color de la fuente: </p>
+        <input type="color" id="font-color">
+    </div>
+    <div class="box-name">
+        <input type="text" id="box-name" placeholder="Nombre de la lista">
+    </div>
+    <button class="ok">Guardar</button>
+    </div>
+</div>
+
+<div class="list-container">
+    <div class="to-do">
+        <div class="titulo">
+            <p class="name-list">Tareas Pendientes</p>
+            <div class="config-btn">
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+            </div>
+        </div>
+        <div class="add-task">
+            <input type="text" class="new-task" placeholder="Agregar nueva tarea">
+            <button class="add">+</button>
+        </div>
+        <div class="to-do-task">
+            <ul class="to-do-list">
+            </ul>
+        </div>
+
+        <div class="empty">
+            <p>No tienes tareas pendientes</p>
+        </div>
+    </div>
+
+    <div class="config">
+    <div class="box-color">
+        <p>Color de la caja: </p>
+        <input type="color" id="box-color">
+    </div>
+    <div class="font-color">
+        <p>Color de la fuente: </p>
+        <input type="color" id="font-color">
+    </div>
+    <div class="box-name">
+        <input type="text" id="box-name" placeholder="Nombre de la lista">
+    </div>
+    <button class="ok">Guardar</button>
+    </div>
+</div>
+
+<div class="list-container">
+    <div class="to-do">
+        <div class="titulo">
+            <p class="name-list">Tareas Pendientes</p>
+            <div class="config-btn">
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+            </div>
+        </div>
+        <div class="add-task">
+            <input type="text" class="new-task" placeholder="Agregar nueva tarea">
+            <button class="add">+</button>
+        </div>
+        <div class="to-do-task">
+            <ul class="to-do-list">
+            </ul>
+        </div>
+
+        <div class="empty">
+            <p>No tienes tareas pendientes</p>
+        </div>
+    </div>
+
+    <div class="config">
+    <div class="box-color">
+        <p>Color de la caja: </p>
+        <input type="color" id="box-color">
+    </div>
+    <div class="font-color">
+        <p>Color de la fuente: </p>
+        <input type="color" id="font-color">
+    </div>
+    <div class="box-name">
+        <input type="text" id="box-name" placeholder="Nombre de la lista">
+    </div>
+    <button class="ok">Guardar</button>
+    </div>
+</div> -->
+
+
+
+
+</div>
+
     <script src="app.js"></script>
 </body>
+
 </html>
